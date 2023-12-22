@@ -3,7 +3,7 @@
 
 To-Do list: 
 
-1. Port not found / port found causes program inaccuracies 
+1. Port not found / port found causes program functionality issues  
 2. Error handling needs to be properly implemented 
 3. Brainstorm ideas regarding the expansion of this program 
 
