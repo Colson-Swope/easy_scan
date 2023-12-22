@@ -5,19 +5,10 @@ To-Do list:
 
 1. Port not found / port found causes program inaccuracies 
 2. Error handling needs to be properly implemented 
-3. Header file proper organization 
-4. Brainstorm ideas regarding the expansion of this program 
+3. Brainstorm ideas regarding the expansion of this program 
 
 
 */
-
-#include <stdio.h> 
-#include <string.h> 
-#include <stdlib.h>
-#include <unistd.h> 
-#include <sys/socket.h> 
-#include <arpa/inet.h> 
-#include <errno.h> 
 
 #include "src/errors.h"
 #include "src/scan.h"

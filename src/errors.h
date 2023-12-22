@@ -1,11 +1,7 @@
-void InputError() {
-    perror("ERR 1\n"); 
-}
+#define ERRORS_H 
 
-void SocketError() {
-    perror("ERR 2\n"); 
-}
+#include <errno.h> 
 
-void ConnectionError() {
-    printf("ERR 3\n"); 
-}
+void InputError();
+void SocketError(); 
+void ConnectionError(); 
