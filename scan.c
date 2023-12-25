@@ -18,7 +18,7 @@ void InitiateScan(char *targetAddress, char *firstPort, char *lastPort) {
         server.sin_port = htons(port); 
 
         if (connect(socketDesc, (struct sockaddr*)&server, sizeof(server)) < 0) {
-            ConnectionError(); 
+            ConnectionError(port); 
         } else {
             printf("Port %d is open\n", port); 
             fflush(stdout);

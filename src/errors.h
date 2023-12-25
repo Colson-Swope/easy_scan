@@ -4,4 +4,4 @@
 
 void InputError();
 void SocketError(); 
-void ConnectionError(); 
+void ConnectionError(int ports); 

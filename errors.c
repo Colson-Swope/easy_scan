@@ -11,6 +11,6 @@ void SocketError() {
     exit(EXIT_FAILURE); 
 }
 
-void ConnectionError() {
-    perror("Port Not Found\n"); 
+void ConnectionError(int port) {
+    printf("Port %d Not Found\n", port); 
 }
