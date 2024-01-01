@@ -4,9 +4,8 @@
 To-Do list: 
 
 1. Port not found / port found causes program functionality issues  
-2. Error handling needs to be properly implemented 
+2. Fix error system to fit a proper standard 
 3. Brainstorm ideas regarding the expansion of this program 
-
 
 */
 
